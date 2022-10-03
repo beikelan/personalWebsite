@@ -1,0 +1,137 @@
+body {
+  margin: 10px;
+  /* height: 100vh; */
+  background-color: white;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.row {
+  flex-direction: row;
+}
+.column {
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-left: 150px;
+}
+.box {
+  width: 300px;
+  height: 200px;
+  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 150px;
+  justify-content: center;
+  align-content: center;
+}
+.box-projects {
+  width: 350px;
+  height: 400px;
+  font-size: 12px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 20px;
+  margin: 10px;
+  margin-top: 100px;
+  justify-content: center;
+  align-content: center;
+}
+.box-books {
+  padding: 20px;
+  margin: 10px;
+}
+.navbar {
+  width: 80px;
+  height: 60px;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #666;
+}
+.main {
+  margin: 10px;
+  width: 80%;
+  height: 550px;
+  padding: 10px 20px;
+  font-size: 24px;
+}
+
+.introduction {
+  width: 600px;
+  height: 150px;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+  left: 600px;
+  top: 200px;
+  color: aliceblue;
+}
+@media (max-width: 600px) {
+  .side {
+    display: none;
+  }
+  .content {
+    flex-direction: column;
+  }
+}
+.nowrap {
+  white-space: nowrap;
+}
+
+.nightSmoothie {
+  background: #a2a2a4;
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(0, 0, 0, 0.5) 200%
+  );
+  background-blend-mode: multiply;
+}
+
+.notching1 {
+  width: 12px;
+  height: 12px;
+  padding: 10px;
+  background: linear-gradient(135deg, transparent 15px, yellowgreen 0) top left,
+    linear-gradient(-135deg, transparent 15px, yellowgreen 0) top right,
+    linear-gradient(-45deg, transparent 15px, yellowgreen 0) bottom right,
+    linear-gradient(45deg, transparent 15px, yellowgreen 0) bottom left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 550px;
+  top: 30px;
+}
+.notching2 {
+  width: 12px;
+  height: 12px;
+  padding: 10px;
+  background: linear-gradient(135deg, transparent 15px, orange 0) top left,
+    linear-gradient(-135deg, transparent 15px, orange 0) top right,
+    linear-gradient(-45deg, transparent 15px, orange 0) bottom right,
+    linear-gradient(45deg, transparent 15px, orange 0) bottom left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 1000px;
+  top: 40px;
+}
+.img {
+  width: 250px;
+  height: 280px;
+  position: absolute;
+  left: 250px;
+  top: 230px;
+  flex-wrap: nowrap;
+}
