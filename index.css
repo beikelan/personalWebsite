@@ -60,6 +60,11 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #666;
 }
+
+.navbar:hover {
+  transform: scale(1.1);
+  zoom: 1;
+}
 .main {
   margin: 10px;
   width: 80%;
@@ -69,7 +74,7 @@ body {
 }
 
 .introduction {
-  width: 600px;
+  width: 650px;
   height: 150px;
   font-size: 30px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
